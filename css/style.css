@@ -12,6 +12,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     height: 10vh;
 }
 
@@ -20,7 +21,7 @@ header{
     background:blue;
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 90vh;
     
 }
 /*PARTE IZQUIERDA DEL DOCUMENTO---------------------------*/
@@ -45,8 +46,11 @@ header{
 
 .AllSelections ul{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    text-decoration: none;
+    padding: 10px;
+    
+    
 
 }
 .AllSelections ul li{
@@ -54,7 +58,17 @@ header{
     flex-direction: center;
     justify-content: center;
     width: 25vh;
+    padding: 10px;
 }
+.AllSelections ul li .text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.AllSelections ul li .text h2{
+    padding: 5px;
+}
+
 
 
 
@@ -67,21 +81,60 @@ header{
 }
 
 
-/*PARTE DERECHA DEL DOCUMENTO*/
+/*PARTE DERECHA DEL DOCUMENTO----------------------------------*/
 .information .three{
     background: lightblue;
     width: 20vw
+}
+.Allsection3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Allsection3 ul{
+    padding: 10px;
+}
+
+.Allsection3 ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.Allsection3 ul li .text{
+    padding: 5px;
+}
+
+
+.barra-de-progreso {
+    height: 10px;
+    width: 20vh;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+.progreso {
+    height: 5vh;
+    background-color: #4CAF50;
 }
 
 
 
 
-
-/*Parte de footer del proyecto*/
-footer{
+/*Parte de footer del proyecto---------------------------*/
+/**footer{
     background: purple;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 10vh;
+    align-items: center;
+    height: 200vh;
+    width: 10vw;
+}
+.systems{
+
 }
