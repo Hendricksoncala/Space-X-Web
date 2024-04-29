@@ -1,11 +1,12 @@
 *{
     margin: 0;
-    padding: 0
+    padding: 0;
+    border:1px solid black;
 }
 body{
 
 }
-/*Parte del header de el proyecto*/
+/*Parte del header de el proyecto--------------------------*/
 header{
     background: red;
     display: flex;
@@ -14,22 +15,62 @@ header{
     height: 10vh;
 }
 
-/*Parte de informacion del proyecto*/
+/*Parte de informacion del proyecto------------------------*/
 .information{
     background:blue;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    height: 80vh;
     
 }
+/*PARTE IZQUIERDA DEL DOCUMENTO---------------------------*/
 .information .one{
-    background: lightgreen
+    background: lightgreen;
+    width: 20vw;
+    flex-direction: column;
+    flex-direction: center;
+    align-items: center;
+
+    
 }
+.AllSelections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.AllSelections img{
+    width: 30px;
+    height: 30px;
+}
+
+.AllSelections ul{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+.AllSelections ul li{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    width: 25vh;
+}
+
+
+
+/*PARTE CENTRAL DEL DOCUMENTO---------------------------*/
 .information .two{
     background: lightcoral;
+    width: 60vw;
+    display: flex;
+    
 }
+
+
+/*PARTE DERECHA DEL DOCUMENTO*/
 .information .three{
     background: lightblue;
+    width: 20vw
 }
 
 
