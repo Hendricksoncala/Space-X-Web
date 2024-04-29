@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+
+}
+/*Parte del header de el proyecto*/
+header{
+    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+}
+
+/*Parte de informacion del proyecto*/
+.information{
+    background:blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.information .one{
+    background: lightgreen
+}
+.information .two{
+    background: lightcoral;
+}
+.information .three{
+    background: lightblue;
+}
+
+
+
+
+
+/*Parte de footer del proyecto*/
+footer{
+    background: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+}
