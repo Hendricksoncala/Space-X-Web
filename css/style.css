@@ -4,7 +4,8 @@
     border:1px solid black;
 }
 body{
-
+    width: 100vw;
+    height: 100vh;
 }
 /*Parte del header de el proyecto--------------------------*/
 header{
@@ -21,7 +22,7 @@ header{
     background:blue;
     display: flex;
     flex-direction: row;
-    height: 90vh;
+    height: 80vh;
     
 }
 /*PARTE IZQUIERDA DEL DOCUMENTO---------------------------*/
@@ -84,7 +85,7 @@ header{
 /*PARTE DERECHA DEL DOCUMENTO----------------------------------*/
 .information .three{
     background: lightblue;
-    width: 20vw
+    width: 20vw;
 }
 .Allsection3{
     display: flex;
@@ -111,7 +112,7 @@ header{
 
 .barra-de-progreso {
     height: 10px;
-    width: 20vh;
+    width: 20vw;
     background-color: #f0f0f0;
     border-radius: 10px;
     overflow: hidden;
@@ -126,15 +127,40 @@ header{
 
 
 /*Parte de footer del proyecto---------------------------*/
-/**footer{
+footer{
     background: purple;
+    height: 10vh;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 200vh;
-    width: 10vw;
+    justify-content: space-between;
+    
 }
 .systems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+/*parte izquierda del footer*/
+.buttons{
+    width: 20vw;
+    display: flex;
+}
+/*footer de la mitad osea el menu$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.menufooter{
+    display: flex;
+    width: 60vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.menufooter img{
+    width: 30px;
+    height: 30px;
+}
+
+/*parte  derecha de el footer*/
+.more{
+    width: 20vw;
 }
